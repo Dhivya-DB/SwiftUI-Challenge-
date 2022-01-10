@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B034BE1278975A800F905A5 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B034BE0278975A800F905A5 /* Oswald-Regular.ttf */; };
+		7B034BE3278B3E9F00F905A5 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B034BE2278B3E9F00F905A5 /* Lato-Bold.ttf */; };
+		7B034BE5278B443C00F905A5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B034BE4278B443C00F905A5 /* Pacifico-Regular.ttf */; };
+		7BED96D4278B6CA1003D99B3 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED96D3278B6CA1003D99B3 /* SignUpPage.swift */; };
+		7BED96D5278B6CA1003D99B3 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED96D3278B6CA1003D99B3 /* SignUpPage.swift */; };
+		7BF8E3912782C116005E10B8 /* recreationChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3812782C115005E10B8 /* recreationChallengeApp.swift */; };
+		7BF8E3922782C116005E10B8 /* recreationChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3812782C115005E10B8 /* recreationChallengeApp.swift */; };
+		7BF8E3932782C116005E10B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3822782C115005E10B8 /* ContentView.swift */; };
+		7BF8E3942782C116005E10B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3822782C115005E10B8 /* ContentView.swift */; };
+		7BF8E3952782C116005E10B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF8E3832782C116005E10B8 /* Assets.xcassets */; };
+		7BF8E3962782C116005E10B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF8E3832782C116005E10B8 /* Assets.xcassets */; };
+		7BF8E3A02782D020005E10B8 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E39F2782D020005E10B8 /* extension.swift */; };
+		7BF8E3A12782D020005E10B8 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E39F2782D020005E10B8 /* extension.swift */; };
+		7BF8E3A32782D479005E10B8 /* clippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3A22782D479005E10B8 /* clippedView.swift */; };
+		7BF8E3A42782D479005E10B8 /* clippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3A22782D479005E10B8 /* clippedView.swift */; };
+		7BF8E3A62782DFC5005E10B8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3A52782DFC5005E10B8 /* constants.swift */; };
+		7BF8E3A72782DFC5005E10B8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8E3A52782DFC5005E10B8 /* constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B034BE0278975A800F905A5 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		7B034BE2278B3E9F00F905A5 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		7B034BE4278B443C00F905A5 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		7B6D86B827832D7E00C86F3A /* recreationChallenge--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "recreationChallenge--iOS--Info.plist"; sourceTree = "<group>"; };
+		7BED96D3278B6CA1003D99B3 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		7BF8E3812782C115005E10B8 /* recreationChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recreationChallengeApp.swift; sourceTree = "<group>"; };
+		7BF8E3822782C115005E10B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BF8E3832782C116005E10B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF8E3882782C116005E10B8 /* recreationChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recreationChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF8E38E2782C116005E10B8 /* recreationChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recreationChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF8E3902782C116005E10B8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7BF8E39F2782D020005E10B8 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		7BF8E3A22782D479005E10B8 /* clippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clippedView.swift; sourceTree = "<group>"; };
+		7BF8E3A52782DFC5005E10B8 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF8E3852782C116005E10B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF8E38B2782C116005E10B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BED96D0278B6C28003D99B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B034BE2278B3E9F00F905A5 /* Lato-Bold.ttf */,
+				7B034BE4278B443C00F905A5 /* Pacifico-Regular.ttf */,
+				7B034BE0278975A800F905A5 /* Oswald-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		7BED96D1278B6C3D003D99B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8E39F2782D020005E10B8 /* extension.swift */,
+				7BF8E3A52782DFC5005E10B8 /* constants.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		7BED96D2278B6C6E003D99B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8E3812782C115005E10B8 /* recreationChallengeApp.swift */,
+				7BF8E3822782C115005E10B8 /* ContentView.swift */,
+				7BED96D3278B6CA1003D99B3 /* SignUpPage.swift */,
+				7BF8E3A22782D479005E10B8 /* clippedView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7BF8E37B2782C115005E10B8 = {
+			isa = PBXGroup;
+			children = (
+				7B6D86B827832D7E00C86F3A /* recreationChallenge--iOS--Info.plist */,
+				7BF8E3802782C115005E10B8 /* Shared */,
+				7BF8E38F2782C116005E10B8 /* macOS */,
+				7BF8E3892782C116005E10B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF8E3802782C115005E10B8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7BED96D2278B6C6E003D99B3 /* Views */,
+				7BED96D1278B6C3D003D99B3 /* Helper */,
+				7BED96D0278B6C28003D99B3 /* Fonts */,
+				7BF8E3832782C116005E10B8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7BF8E3892782C116005E10B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8E3882782C116005E10B8 /* recreationChallenge.app */,
+				7BF8E38E2782C116005E10B8 /* recreationChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF8E38F2782C116005E10B8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8E3902782C116005E10B8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF8E3872782C116005E10B8 /* recreationChallenge (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF8E3992782C116005E10B8 /* Build configuration list for PBXNativeTarget "recreationChallenge (iOS)" */;
+			buildPhases = (
+				7BF8E3842782C116005E10B8 /* Sources */,
+				7BF8E3852782C116005E10B8 /* Frameworks */,
+				7BF8E3862782C116005E10B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recreationChallenge (iOS)";
+			productName = "recreationChallenge (iOS)";
+			productReference = 7BF8E3882782C116005E10B8 /* recreationChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF8E38D2782C116005E10B8 /* recreationChallenge (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF8E39C2782C116005E10B8 /* Build configuration list for PBXNativeTarget "recreationChallenge (macOS)" */;
+			buildPhases = (
+				7BF8E38A2782C116005E10B8 /* Sources */,
+				7BF8E38B2782C116005E10B8 /* Frameworks */,
+				7BF8E38C2782C116005E10B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recreationChallenge (macOS)";
+			productName = "recreationChallenge (macOS)";
+			productReference = 7BF8E38E2782C116005E10B8 /* recreationChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF8E37C2782C115005E10B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7BF8E3872782C116005E10B8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					7BF8E38D2782C116005E10B8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 7BF8E37F2782C115005E10B8 /* Build configuration list for PBXProject "recreationChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF8E37B2782C115005E10B8;
+			productRefGroup = 7BF8E3892782C116005E10B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF8E3872782C116005E10B8 /* recreationChallenge (iOS) */,
+				7BF8E38D2782C116005E10B8 /* recreationChallenge (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF8E3862782C116005E10B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B034BE1278975A800F905A5 /* Oswald-Regular.ttf in Resources */,
+				7BF8E3952782C116005E10B8 /* Assets.xcassets in Resources */,
+				7B034BE3278B3E9F00F905A5 /* Lato-Bold.ttf in Resources */,
+				7B034BE5278B443C00F905A5 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF8E38C2782C116005E10B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF8E3962782C116005E10B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF8E3842782C116005E10B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BED96D4278B6CA1003D99B3 /* SignUpPage.swift in Sources */,
+				7BF8E3A32782D479005E10B8 /* clippedView.swift in Sources */,
+				7BF8E3A02782D020005E10B8 /* extension.swift in Sources */,
+				7BF8E3932782C116005E10B8 /* ContentView.swift in Sources */,
+				7BF8E3A62782DFC5005E10B8 /* constants.swift in Sources */,
+				7BF8E3912782C116005E10B8 /* recreationChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF8E38A2782C116005E10B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BED96D5278B6CA1003D99B3 /* SignUpPage.swift in Sources */,
+				7BF8E3A42782D479005E10B8 /* clippedView.swift in Sources */,
+				7BF8E3A12782D020005E10B8 /* extension.swift in Sources */,
+				7BF8E3942782C116005E10B8 /* ContentView.swift in Sources */,
+				7BF8E3A72782DFC5005E10B8 /* constants.swift in Sources */,
+				7BF8E3922782C116005E10B8 /* recreationChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BF8E3972782C116005E10B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BF8E3982782C116005E10B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BF8E39A2782C116005E10B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recreationChallenge--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.recreationChallenge";
+				PRODUCT_NAME = recreationChallenge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BF8E39B2782C116005E10B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recreationChallenge--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.recreationChallenge";
+				PRODUCT_NAME = recreationChallenge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF8E39D2782C116005E10B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.recreationChallenge";
+				PRODUCT_NAME = recreationChallenge;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BF8E39E2782C116005E10B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XMSSQM88T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mallow-tech.recreationChallenge";
+				PRODUCT_NAME = recreationChallenge;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF8E37F2782C115005E10B8 /* Build configuration list for PBXProject "recreationChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF8E3972782C116005E10B8 /* Debug */,
+				7BF8E3982782C116005E10B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF8E3992782C116005E10B8 /* Build configuration list for PBXNativeTarget "recreationChallenge (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF8E39A2782C116005E10B8 /* Debug */,
+				7BF8E39B2782C116005E10B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF8E39C2782C116005E10B8 /* Build configuration list for PBXNativeTarget "recreationChallenge (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF8E39D2782C116005E10B8 /* Debug */,
+				7BF8E39E2782C116005E10B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF8E37C2782C115005E10B8 /* Project object */;
+}
